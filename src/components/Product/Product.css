@@ -1,0 +1,30 @@
+.productContainer {
+    padding-top: 10%;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    .productContainer {
+        padding-top: 15% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .productContainer {
+        padding-top: 28%;
+    }
+    .productDetails {
+        text-align: center;
+    }
+    .orderNowCTA {
+        width: 100%;
+    }
+    .inStockIcon {
+        padding-left: 35% !important;
+    }
+    .outStockIcon {
+        padding-left: 35% !important;
+    }
+}

@@ -1,0 +1,60 @@
+.heroImage {
+    width: 100vw;
+    object-fit: cover;
+    height: fit-content;
+}
+
+.cardContentStyle {
+    padding: 0 110px;
+    margin-bottom: 35px;
+    color: grey
+}
+
+.vegetableHeading {
+    margin-top: 20px !important;
+}
+
+.customerDetails {
+    border-right: 1px solid rgba(0,0,0,.1)
+}
+
+.customerName {
+    margin-left: 40px;
+}
+
+.customerFeedback {
+    margin-top: 10px !important;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    .cardContentStyle {
+        padding: 0 10px;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .cardContentStyle {
+        padding: 0 10px;
+    }
+    .productName {
+        text-align: center;
+    }
+    .productSubtitle {
+        text-align: center;
+    }
+    .vegetableHeading {
+        text-align: center;
+    }
+    .customerDetails {
+        border-right: none;
+    }
+    .customerName {
+        margin-left: 0;
+    }
+    .customerFeedback {
+        margin-top: 0 !important;
+    }    
+}
